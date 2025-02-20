@@ -22,14 +22,6 @@ template.innerHTML = `
 }
 </style>
 
-<div class="webring">
-  <div class="icon">🤜</div>
-  <div id="copy">
-    
-  </div>
-  <div class="icon">🤛</div>
-</div>`;
-
 class WebRing extends HTMLElement {
   connectedCallback() {
     this.attachShadow({ mode: "open" });
